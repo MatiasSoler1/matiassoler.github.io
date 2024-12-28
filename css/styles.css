@@ -4,17 +4,6 @@
 */
 
 .jumbotron{
-    padding-left: 100px;
-    padding-right: 120px;
-    padding-top: 100px;
-}
-
-.jumbotron p{
-    text-align: justify;
-    justify-content: center; 
-}
-
-.jumbotron img{
-    float: left;
-    padding-right: 20px;
+    padding-top: 90px;
+    padding-left: 150px;
 }
