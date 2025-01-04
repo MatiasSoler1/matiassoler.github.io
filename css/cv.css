@@ -256,8 +256,9 @@ body {
 ********************************************************************************/
 
 #langues {
-    margin-top: 160px;
+    margin-top: 80px;
 }
+
 #langues .container {
     display: flex;
     flex-direction: row;
@@ -276,6 +277,9 @@ body {
 * Compétences
 ********************************************************************************/
 
+#competences {
+    margin-top: 70px;
+}
 #competences .container {
     display: flex;
     flex-direction: row;
@@ -301,3 +305,17 @@ body {
 #competences .container .classement3 { background-position: 0 -56px; }
 
 #competences .container .classement4 { background-position: 0 -28px; }
+
+/*******************************************************************************
+* Passions
+********************************************************************************/
+
+#passions {
+    margin-top: 80px;
+}
+
+#passions .container {
+    justify-content: space-between;
+    font-size: 1.5em;
+    padding: 10px;
+}
