@@ -8,8 +8,15 @@
 * Me contacter
 ********************************************************************************/
 
-.meContacter {
-    clear: both;
+.jumbotron{
+   text-align: center;
+}
+
+.meContacter{
+    display: inline-block;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .meContacter .details {
@@ -18,7 +25,6 @@
     margin-top: 40px;
     font-size: 1.5em;
     font-weight: 700;
-    justify-content: space-between;
 }
 
 .contact-icon {
@@ -44,3 +50,4 @@
     -ms-filter: grayscale(0);
     -o-filter: grayscale(0);
 }
+

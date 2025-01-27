@@ -45,9 +45,6 @@ body {
     letter-spacing: -1px;
 }
 
-#cv-intro h1 span { 
-    color: rgb(226,0,26);
-}
 
 #cv-intro::after { 
     background: url('images/ligne.png');
@@ -67,7 +64,7 @@ body {
 }
 
 .rubrique h2 {
-    color: rgb(226,0,26);
+    color: rgb(0,51,102);
 }
 
 .rubrique h2::before{
@@ -214,9 +211,6 @@ body {
 * Langues
 ********************************************************************************/
 
-#langues {
-    margin-top: 160px;
-}
 
 #langues .container {
     display: flex;
@@ -236,9 +230,6 @@ body {
 * Compétences
 ********************************************************************************/
 
-#competences {
-    margin-top: 70px;
-}
 #competences .container {
     display: flex;
     flex-direction: row;
@@ -268,10 +259,6 @@ body {
 /*******************************************************************************
 * Passions
 ********************************************************************************/
-
-#passions {
-    margin-top: 80px;
-}
 
 #passions .container {
     justify-content: space-between;
