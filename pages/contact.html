@@ -74,15 +74,6 @@
                 <h2><span class="fa fa-user"></span> Me contacter</h2>
                 <div class="meContacter">
                     <div class="details float-left">
-                        <a href="mailto:matsoler84@gmail.com?subject=Contact depuis le CV en ligne"
-                           title="Mail de Matias Soler">
-                            <img class="contact-icon" src="../images/cv/mail-dreamstale47.png"
-                                 alt="Icone de mail"> Gmail
-                        </a>
-                    </div>
-                </div>
-                <div class="meContacter">
-                    <div class="details float-left">
                         <a href="https://www.linkedin.com/in/matias-soler-6746aa31a/"
                            title="Lien vers le profil LinkedIn de Matias Soler">
                             <img class="contact-icon" src="../images/cv/linkedin-dreamstale45.png"
@@ -109,6 +100,20 @@
                     </div>
                 </div>
             </div>
+            <form action="mailto:matsoler84@gmail.com" method="GET" enctype="text/plain">
+                <div class="container form-group col-lg-4">
+                    <label for="email">Adresse mail</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Entrer votre e-mail.." required>
+                    <small id="emailHelp" class="form-text text-muted">Nous ne partageons jamais votre e-mail.</small>
+                </div>
+
+                <div class="container form-group col-lg-4">
+                    <label for="subject">Sujet du mail</label>
+                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Entrez le sujet du mail" required>
+                </div>
+                <!-- Lien Mailto avec sujet et message personnalisables -->
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
         </div> <!-- Emplacement pour le contenu principal de la page -->
         <footer>
             <div class="container">
